@@ -7,7 +7,7 @@ import {
     matchedData,
 } from "express-validator";
 import { users } from "../mocks/index.mjs";
-import { createUserValidationSchema } from "../utils/validationSchemas.mjs";
+import { createUserValidationSchema } from "../utils/validation-schemas.mjs";
 import { getIndexByParamsId, confirmUser } from "../utils/middlewares/index.mjs";
 import { User } from "../db/mongoose/schemas/user-schema.mjs";
 import { hashPassword } from "../utils/helper.mjs";
