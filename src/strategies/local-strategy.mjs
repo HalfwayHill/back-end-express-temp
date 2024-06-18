@@ -1,7 +1,7 @@
 import passport from "passport";
 import { Strategy } from "passport-local";
 import { users } from "../mocks/index.mjs";
-import { User } from "../db/mongoose/schemas/users.mjs";
+import { User } from "../db/mongoose/schemas/user-schema.mjs";
 import { comparePassword } from "../utils/helper.mjs";
 
 passport.serializeUser((user, done) => {

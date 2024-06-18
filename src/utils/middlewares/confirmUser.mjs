@@ -1,4 +1,4 @@
-import { User } from "../../db/mongoose/schemas/users.mjs";
+import { User } from "../../db/mongoose/schemas/user-schema.mjs";
 
 // 路由中间 验证用户
 const confirmUser = async (req, res, next) => {
