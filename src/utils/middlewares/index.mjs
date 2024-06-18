@@ -1,7 +1,7 @@
-import getIndexByParamsId from "./getIndexByParamsUsername.mjs";
-import confirmUser from "./confirmUser.mjs";
-import loggingMiddleware from "./loggingMiddleware.mjs";
-import checkCookiesMiddleware from "./checkCookiesMiddleware.mjs";
+import getIndexByParamsId from "./req-process-middleware.mjs";
+import confirmUser from "./confirm-user-middleware.mjs";
+import loggingMiddleware from "./logging-middleware.mjs";
+import checkCookiesMiddleware from "./check-cookies-middleware.mjs";
 
 export {
     getIndexByParamsId,
