@@ -3,6 +3,7 @@ import router from './routes/index.mjs';
 import cookieParser from "cookie-parser";
 import session from "express-session";
 import passport from "passport";
+import MongoStore from "connect-mongo";
 import mongoose from "mongoose";
 import { resSuccessPipe, resFailurePipe } from "./utils/response.mjs";
 import { loggingMiddleware, checkCookiesMiddleware } from "./utils/middlewares/index.mjs"
@@ -27,6 +28,9 @@ export default function createApp() {
 			cookie: {
 				maxAge: 60000 * 60,
 			},
+            store: MongoStore.create({
+				client: mongoose.connection.getClient(),
+			}),
 		})
 	);
 
