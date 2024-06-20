@@ -1,6 +1,7 @@
 # back-end-express-temp
 
 > 适用于Express框架的后端开发模版
+> 遵循RESTful API风格
 
 ## 项目功能
 
@@ -12,6 +13,7 @@
 - [x] 本地简单Mock数据
 - [x] response回应统一管道
 - [x] express-validator集成，验证请求数据
+- [x] session缓存
   
 ### 目录结构
 
