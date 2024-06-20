@@ -1,7 +1,10 @@
-# back-end-express-temp
+# Express框架开发模版
 
 > 适用于Express框架的后端开发模版
+>
 > 遵循RESTful API风格
+
+[English Project Description](./README_EN.md)
 
 ## 项目功能
 
@@ -33,6 +36,7 @@
     |-index.mjs                             # 入口脚本
 |-.gitignore                                # git相关文件
 |-package.json                              # 项目包配置文件
-|-README.md                                 # 项目说明文件
+|-README_EN.md                              # 英文项目说明文件
+|-README.md                                 # 中文项目说明文件
 
 ```
